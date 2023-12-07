@@ -1,0 +1,35 @@
+﻿body {
+    background-color: whitesmoke;
+    position: center;
+}
+.container {
+    background-color: whitesmoke;
+    position: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color:black;
+}
+.logo{
+    margin-top:10px;
+}
+.username{
+    margin-top:1%;
+    cursor: pointer;
+}
+.password{
+    margin-top:1%;
+    cursor: pointer;
+}
+.buttonsignup{
+    background-color:deepskyblue;
+    color: white;
+    border-radius: 5px;
+    border-style:none;
+    border-color:deepskyblue;
+    margin-top: 1%;
+    font-weight: bold;
+    vertical-align:central;
+    font-stretch:expanded;
+
+}
