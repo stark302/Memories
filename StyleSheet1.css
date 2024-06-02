@@ -1,35 +1,162 @@
-﻿body {
-    background-color: whitesmoke;
-    position: center;
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+*{
+    text-align: center;
 }
-.container {
-    background-color: whitesmoke;
-    position: center;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 0.8px;
-    border-color:black;
+body{
+    background-color:#000;
+    color: white;
+    justify-content: center;
 }
-.logo{
-    margin-top:10px;
+#i{
+    position:relative;
+    bottom:75vh;
+    align-content: center;
+    justify-content: center;
+    justify-content: fixed;
 }
-.username{
-    margin-top:1%;
+.ko{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+}
+#first{
+    position: relative;
+    left:0%;
+    top: 0%;
+    right: 0%;
+}
+#logo-text{ 
+    bottom: 900px;
+    left: 100px;
+    color: red;
+    font-family: "Bebas Neue", sans-serif;
+    float: left;
+    font-size: 5vh;
+    font-style: concaveB;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.sing,.language-button{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: red;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 10px;
     cursor: pointer;
+    border: 0;
+    fill: currentColor;
+    border-radius: 0.25rem;
 }
-.password{
-    margin-top:1%;
-    cursor: pointer;
+.sing{
+    bottom: 110vh;
+    left: 100%;
+    box-sizing:content-box;
 }
-.buttonsignup{
-    background-color:deepskyblue;
+.language-button{
+    background-color:red;
+    left: 150vh;
+    bottom: 115vh;
+    border: 0.25rem;
+    position: absolute;
+    padding-left: 1.5rem;
+    padding-right: 0.1rem;
+}
+.language-button option{
+    background-color: black;
+}
+#login1{
+    position: absolute;
+    bottom: 37vh;
+    right: 50%;
+    font-family: etflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background:rgb(229, 9, 20);
+    font-size: 1.2rem;
     color: white;
     border-radius: 5px;
-    border-style:none;
-    border-color:deepskyblue;
-    margin-top: 1%;
-    font-weight: bold;
-    vertical-align:central;
-    font-stretch:expanded;
-
+    padding: 10px 10px;
+    cursor: pointer;
+    size: 5px;
+}
+.login{
+    position: absolute;
+    bottom: 37vh;
+    float:right;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: medium;
+    color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 10px;
+    cursor: pointer;
+    filter: opacity(100%);
+    color: transparent;
+}
+#first{
+    text-align: center;
+    width: 50% auto;
+    height: 70%;
+    border-color: grey;
+    border: 50px 50px;
+    box-sizing: border-box;
+}
+.first{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(./images/back.jpg);
+    opacity: 0.40;
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    position: relative;
+    display: inline
+}
+#middlepage{
+    border-top: none;
+    background-color: black;
+    border-color: grey;
+    background-image: none;
+}
+#thirdpage{
+    border-color: grey;
+    border-top: none;
+}
+#four{
+    border-color: grey;
+    border-top: none;
+}
+#fith{
+    border-color: grey;
+    border-top: none;
+}
+#sixth{
+    border-color: grey;
+    display: list-item;
+    margin-bottom: 2px;
+}
+.Q{
+    padding: 18px;
+    box-sizing:border-box;
+    display: flex;
+    color: #fff;
+    background-color:#303030;
+    border-width: 50%;
+    height: 189px;
+    width: 700px;
+    font-size: 18px;
+}
+.content{
+    box-sizing: border-box;
+    background-color:#303030;
+    max-height: 600px;
+    color: #fff;
+    height: 189px;
+    width: 700px;
+    font-size: 18px;
+}
+#content{
+    max-height: 600px;
+}
+#seven{
+}
+input[type="radio"] {
+    display: none;
 }
